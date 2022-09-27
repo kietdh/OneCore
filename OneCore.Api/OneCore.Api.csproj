@@ -1,15 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>77b58a60-5656-4386-893f-ca2230ca5d54</UserSecretsId>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\OneCore.Contracts\OneCore.Contracts.csproj" />
     <ProjectReference Include="..\OneCore.Application\OneCore.Application.csproj" />
     <ProjectReference Include="..\OneCore.Infrastructure\OneCore.Infrastructure.csproj" />
-  </ItemGroup>
-
+  </ItemGroup>  
 </Project>
