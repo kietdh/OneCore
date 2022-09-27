@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OneCore.Contracts\OneCore.Contracts.csproj" />
+    <ProjectReference Include="..\OneCore.Application\OneCore.Application.csproj" />
+    <ProjectReference Include="..\OneCore.Infrastructure\OneCore.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
